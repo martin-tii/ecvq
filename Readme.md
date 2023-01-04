@@ -1,13 +1,12 @@
 
 # Mutual Authentication Using ECQC  
   
-ECQV certificates are lightweight alternatives to the classical X509 certificates and are typically used in IoT applications. In addition, they have interesting security features, as they do not need a secure channel between the certificate authority (CA) and the device requesting a certificate. In addition, they offer protection against key escrow attacks, as the CA is also not aware of the private key established by the device during the protocol.  
-[[1]](#1)  
+ECQV certificates are lightweight alternatives to the classical X509 certificates and are typically used in IoT applications. In addition, they have interesting security features, as they do not need a secure channel between the certificate authority (CA) and the device requesting a certificate. In addition, they offer protection against key escrow attacks, as the CA is also not aware of the private key established by the device during the protocol [[1]](#1).   
   
   
 ## Protocol Details  
-from [[2]](#2)
-This scheme is composed in three main phases  
+
+This scheme is composed in three main phases  [[2]](#2).
 1. [Implicit certificate generation phase](img/Phase1.md)
 + 1.1  Implicit Certificate Request  
 + 1.2  Implicit Certificate Generation  
@@ -15,7 +14,16 @@ This scheme is composed in three main phases
 2. [Pair wise key establishment phase](img/Phase2.md)   
 3. [Mutual authentication phase](img/Phase3.md)  
   
-***  
+***
+## How to run it 
+```
+python3 test-main.py
+```
+***
+## ToDo
+1. Self Signed certificates
+2. Socket communication
+***
 # References  
 <a id="1">[1]</a>  Porambage, Pawani, et al. "Certificate-based pairwise key establishment protocol for wireless sensor networks." 2013 IEEE 16th International Conference on Computational Science and Engineering. IEEE, 2013.  
 
