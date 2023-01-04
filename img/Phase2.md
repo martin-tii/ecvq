@@ -1,0 +1,15 @@
+### 2. Pair wise key establishment phase
+
+Now the $Node_U$ will exchange its credentials with $Node_V$. 
+Once both nodes exchanges their credentials, they will create a **shared secret key** $k_{uv}$,$k_{vu}$
+
+**Input:**
+
+1. The elliptic curve domain parameters established by CA  
+2. Identity of other node ($V$)
+3. Authenticator $Auth_u$
+
+[![](https://mermaid.ink/img/pako:eNqNk11r2zAUhv-K0FWSasGyayc2rFCyQSF0zGzWYPhGtY9jMX-kshTmhfz3ndhZFkpa6gsjHz2vLD0c7WnW5kAj2sGzhSaDT0putKzThuDzXZkKyFepNPmhOiBr6MnnzsinSnVlDY0hI7eV2qhMbSVWvuB6yfWyGMsaMkP05mnCQ86I63r48v3pODnEyYe7uzEREcHurSkTRh5kV07GsTjB0OT_UwJT5xBoVah-yFwnViVkv4iQlcqV6UlbkBXgbguVSQNjpGkNEK02pTlOn3JAPpKHSYZsMn0Diy1yMBu4m3h1_wa6tjtk890stu_0I85-kogkgx9x4Uew5Jqf5N_pk9f8XBLv9VNBcT5McqlHTF-nYnG2I17YeUGud0eRuZ3FO8poDbqWKsd23R8jKTUl1JDSCIc5FNJWJqVpc0BUWtN-65uMRkZbYNRuc9z4qbtpVMiqwyq2Jo329DeN3IDPF16wDLm75I6_dBntscq9OV_gt-N4vnMb8AOjf9oWF3Dmi4UfeB73AzcM_ZBzRgFVtfpxvFDDvRr-8HMIHLdx-AsTdA2O?type=png)](https://mermaid.live/edit#pako:eNqNk11r2zAUhv-K0FWSasGyayc2rFCyQSF0zGzWYPhGtY9jMX-kshTmhfz3ndhZFkpa6gsjHz2vLD0c7WnW5kAj2sGzhSaDT0putKzThuDzXZkKyFepNPmhOiBr6MnnzsinSnVlDY0hI7eV2qhMbSVWvuB6yfWyGMsaMkP05mnCQ86I63r48v3pODnEyYe7uzEREcHurSkTRh5kV07GsTjB0OT_UwJT5xBoVah-yFwnViVkv4iQlcqV6UlbkBXgbguVSQNjpGkNEK02pTlOn3JAPpKHSYZsMn0Diy1yMBu4m3h1_wa6tjtk890stu_0I85-kogkgx9x4Uew5Jqf5N_pk9f8XBLv9VNBcT5McqlHTF-nYnG2I17YeUGud0eRuZ3FO8poDbqWKsd23R8jKTUl1JDSCIc5FNJWJqVpc0BUWtN-65uMRkZbYNRuc9z4qbtpVMiqwyq2Jo329DeN3IDPF16wDLm75I6_dBntscq9OV_gt-N4vnMb8AOjf9oWF3Dmi4UfeB73AzcM_ZBzRgFVtfpxvFDDvRr-8HMIHLdx-AsTdA2O)
+
+**Output:**
+**shared secret key** $k_{uv}$,$k_{vu}$

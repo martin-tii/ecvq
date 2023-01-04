@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
 
     nonce = random.randint(1,99)
-    values, hashed = authenticate(node1="nodeU", node2="nodeV", nonce=str(random.randint(1,99)), key=str(kuv))
+    values, hashed = authenticate(node1="nodeU", node2="nodeV", nonce=str(random.randint(1,99999999999999999)), key=str(kuv))
     print(values)
     print(hashed)
 
