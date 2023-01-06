@@ -31,4 +31,6 @@ def cert_generate(idText, request, CAPrivkey):
     r = (e*k + d) % N
     return r, P
 
-
+    '''
+    binding a public key to its owner in a trusted way, make the proposed strategy robust against man-in-the-middle (MITM) attacks.
+    '''
